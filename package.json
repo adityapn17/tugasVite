@@ -1,0 +1,19 @@
+{
+  "name": "vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx wrangler deploy"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "wrangler": "^4.67.0"
+  },
+  "dependencies": {
+    "random-string": "^0.2.0"
+  }
+}
